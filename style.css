@@ -16,8 +16,12 @@ header>*{
     display:inline-block;
     padding:10px 10px;
 }
+div img {
+    animation: anim1 2s 1 0s;
+}
 .h1{
     font-size:30px;
+    animation: anim1 2s 1 0s;
 }
 body{
     position: relative; 
@@ -47,9 +51,13 @@ a{
     display:inline-block;
     padding:20px 35px;
 }
+article img {
+    animation: anim2 2s 1 0.5s;
+}
 #n{
     background-image:url(1579331119_60-111.jpg);
     margin:0px 131px;
+    
 }
 h2{
     font-size:30px;
@@ -58,6 +66,7 @@ h2{
 #s{
     background-image:url(1579331119_60-111.jpg);
     margin:0px 131px;
+    
 }
 table{
     border:1px solid black;
@@ -142,5 +151,40 @@ footer{
 .p4{
     position:relative;
     right:13px;
+}
+a {
+    transition: 0.5s;
+}
+a:hover {
+    color:gray;
+}
+img {
+    transition: 0.5s;    
+}
+img:hover {
+    transform:scale(1.2);
+}
+@keyframes anim1 {
+    0% {
+        transform:translate(-1000px);
+    }
+    100% {
+        transform:translate(0px);
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        transform:scale(1.5);
+    }
+    100% {
+        transform:scale(1);
+    }
+}
+h2:hover {
+    color:red;
+}
+h2 {
+    transition: 0.5s;    
 }
 
