@@ -62,7 +62,7 @@ body {
 }
 
 .menu a {
-    font-size: 40px;
+    font-size: 35px;
     text-decoration:none;
     color:white;
     opacity: 1;
@@ -78,7 +78,9 @@ body {
 .str a {
     margin: 30px;
 }
+
 /* Введение*/
+
 .vedenie {
     height: 500px;
     background-image: url(img/4.jpg);
@@ -88,6 +90,8 @@ body {
 .vedenie p{
     margin: 0px 13%;
     color:white;
+    font-size:25px;
+    padding: 50px 0;
 }
 .b {
     font-size: 35px;
